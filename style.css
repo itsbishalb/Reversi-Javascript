@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+.gameBoard{
+    margin: 20px;
+    display: grid;
+    background-color: rgb(56, 232, 56);
+    width: 800px;
+    height: 800px;
+    grid-template-columns: repeat(8,100px);
+    grid-template-rows: repeat(8,100px);
+}
+
+
+.boardSquare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+
+.circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+
+.black-circle{
+    background-color: black;
+    border: 2px solid white;
+}
+
+.white-circle{
+    background-color: white;
+    border: 2px solid black;
+}
+
