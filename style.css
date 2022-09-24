@@ -3,6 +3,7 @@ body{
 }
 .gameBoard{
     margin: 20px;
+    margin-top: 0;
     display: grid;
     background-color: rgb(56, 232, 56);
     width: 800px;
@@ -41,3 +42,10 @@ body{
     border: 2px solid black;
 }
 
+#playerText {
+    margin: 0 20px;
+    text-align: center;
+    width: 800px;
+    font-size: 20px;
+    background-color: red;
+}
