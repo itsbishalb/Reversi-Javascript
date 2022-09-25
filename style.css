@@ -1,7 +1,12 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
+    
 }
 .gameBoard{
+   
     margin: 20px;
     margin-top: 0;
     display: grid;
@@ -30,8 +35,15 @@ body{
     width: 80px;
     border-radius: 50%;
 }
-
-
+.counter{
+    display: flex;
+    align-items: center;
+}
+.small-circle{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
 .black-circle{
     background-color: black;
     border: 2px solid white;
@@ -48,4 +60,25 @@ body{
     width: 800px;
     font-size: 20px;
     background-color: red;
+}
+#gameoverContainer{
+    width: 800px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.gameOver {
+    width: 400px;
+    background-color:rgb(56, 232, 56);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.gameOver button {
+    width: 100px;
+    margin: 10px 0
 }
