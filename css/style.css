@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+.gameBoard{
+   
+    margin: 0 20px;
+    display: grid;
+    background-color: rgb(56, 232, 56);
+    width: 680px;
+    height: 680px;
+    grid-template-columns: repeat(8,85px);
+    grid-template-rows: repeat(8,85px);
+}
+
+
+.boardSquare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 0; 
+}
+.counter{
+    display: flex;
+    align-items: center;
+}
+.small-circle{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+.black-circle{
+    background-color: black;
+    border: 2px solid white;
+}
+
+.white-circle{
+    background-color: white;
+    border: 2px solid black;
+}
+
+#playerText {
+    margin: 0 20px;
+    text-align: center;
+    width: 680px;
+    font-size: 20px;
+    background-color: red;
+}
+#gameoverContainer{
+    width: 680px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.gameOver {
+    width: 400px;
+    background-color:rgb(56, 232, 56);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.gameOver button {
+    width: 100px;
+    margin: 10px 0
+}
+
+
+#playAI{
+    margin: 0 20px;
+    text-align: center;
+    width: 680px;
+    font-size: 20px;
+    margin-top: 0;
+    background-color: rgb(0, 150, 161);
+}
